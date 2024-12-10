@@ -1,9 +1,7 @@
 
-
-java:S1192"GDefine a constant instead of duplicating this literal "Sierra" 3 times.(ØØŞßøÿÿÿÿ8ƒö¤‰»2J$e9a1e5a4-a927-4a7b-b5c8-ca87bdcee0f3
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ß¢êò8„ö¤‰»2J$1af39396-3d01-4fe1-9daf-9d70bc8ccb36
-m	java:S106
-"+Replace this use of System.out by a logger.(¤ÇÙæ8‹ö¤‰»2J$5dbebb72-c74e-4b17-9a94-ef9e88f89992
-m	java:S106"+Replace this use of System.out by a logger.(‡©ıá8Œö¤‰»2J$bfbf2119-d6f0-4608-a295-a076d78c1d25
-s
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ö¤‰»2J$1f6e6a13-4d9f-45a9-b36f-babce4b6a863
+Š
+java:S1192
+"GDefine a constant instead of duplicating this literal "Sierra" 3 times.(£®™¯8¡¥ùÒ½2J$6d00f304-73e4-463e-926f-486b2f2206f5
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ß¢êò8±¥ùÒ½2J$29c81324-bd76-4a24-ae8c-52e1eee1ea0a
+m	java:S106"+Replace this use of System.out by a logger.(«¦âÛ8±¥ùÒ½2J$c36666a7-0686-48ac-9a6f-ae22db528f35
+m	java:S106"+Replace this use of System.out by a logger.(‡©ıá8Á¥ùÒ½2J$72a4ed5a-6712-4bc5-a914-fbaecbb5df03

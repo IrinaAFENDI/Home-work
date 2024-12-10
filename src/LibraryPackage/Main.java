@@ -1,42 +1,50 @@
 package LibraryPackage;
 
-import java.util.ArrayList;
-
 public class Main {
-
-    static Library library;
-
-    static {
-        System.out.println("Создание библиотеки...");
-        library = new Library();
-        library.addBook(new Book("Java", "Sierra", 2021, true));
-        library.addBook(new Book("еЕЕЕЕЕ", "Sierra", 221, true));
-        library.addBook(new Book("JS", "Nert", 2022, true));
-        library.addBook(new Book("Forest", "Redut"));
-        library.addBook(new Book("Doors", "Bernot"));
-    }
-
 
     public static void main(String[] args) {
 
+        Library library = Library.list;
+
+        // Добавляем книги в библиотеку
+        Book book1 = new Book("Java", "Sierra", 2021, true);
+        library.addBook(book1);
+
+        Book book2 = new Book("еЕЕЕЕЕ", "Sierra", 221, true);
+        library.addBook(book2);
+
+        Book book3 = new Book("JS", "Nert", 2022, true);
+        library.addBook(book3);
+
+        Book book4 = new Book("Forest", "Redut");
+        library.addBook(book4);
+
+        Book book5 = new Book("Doors", "Bernot");
+        library.addBook(book5);
+
+        // Печатаем доступные книги
         library.printAvailableBooks();
 
-        System.out.println( library.findBooksByAuthor("Sierra"));
+        // Ищем книги по автору
+        System.out.println("Книги автора Sierra:");
+        System.out.println(library.findBooksByAuthor("Sierra"));
 
-        library.getList().get(0).borrowBook();
+        // Берем первую доступную книгу
+        book1.borrowBook();
 
-
+        // Печатаем доступные книги после выдачи
         library.printAvailableBooks();
 
-        library.getList().get(1).borrowBook();
+        // Берем вторую книгу
+        book2.borrowBook();
 
+        // Печатаем доступные книги после второй выдачи
         library.printAvailableBooks();
 
-        library.getList().get(0).returnBook();
+        // Возвращаем первую книгу
+        book1.returnBook();
 
+        // Печатаем доступные книги после возврата
         library.printAvailableBooks();
-
-
-
     }
 }
