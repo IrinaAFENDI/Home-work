@@ -22,3 +22,7 @@ Q.idea/sonarlint/securityhotspotstore/5/c/5c85ed5c882aca927469be4f83294df0608577
 Q.idea/sonarlint/securityhotspotstore/7/8/7859ddca53f8a32b5d8a03fd0f5f4028718d9a4b,8\0\80ec59387738065028d50115bae11caff1a5970d
 <
 src/Ger.java,8\5\8587b735ac012cb7f3585e952365f5bb4102ab55
+w
+G.idea/sonarlint/issuestore/8/5/8587b735ac012cb7f3585e952365f5bb4102ab55,c\8\c8a1945cfd48c34032575869e8a1f82ef8ad1fce
+
+Q.idea/sonarlint/securityhotspotstore/8/5/8587b735ac012cb7f3585e952365f5bb4102ab55,4\d\4d2a6253198218f3cd67dbdaec501bf1ecdde70e
